@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio de Clase</title>
+    <!-- Comentario XD -->
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar  navbar-dark bg-dark">
+        <a href="#">Productos</a>
+    </nav>
+    <div class="contenedor">
+         <!--Aplicacion-->
+         <div id="App" class="fila 5">
+            <div class="columna 4">
+                <div class="tarjeta">
+                   <div class="tarjeta-header">
+                       <h4>Agregar Productos</h4>
+                   </div>
+                   <form id="Formulario-producto" class="tarjeta-cuerpo">
+                       <div class="formulario-grupos">
+                         <input 
+                         class="control-formulario" 
+                         type="text" 
+                         id="Nombre" 
+                         placeholder="Nombre de Producto">
+                         <input type="button" 
+                         value="Guardar"
+                         class="btn btn-primary btn-bloque">
+                       </div>
+                   </form>
+                </div>
+            </div><!--Termina Formulario-->
+         </div>
+    </div>
+     <!--Lista productos-->
+    <div id="lista-producto" class="columna-8">
+
+    </div>
+
+    <script src="app.js">
+
+    </script>
+</body>
+</html>
